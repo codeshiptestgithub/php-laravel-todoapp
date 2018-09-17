@@ -1,6 +1,6 @@
 - name: tests
   service: web-codeship-example-php
-  command: phpunit
+  command: true
 - name: deploy
   tag: master
   service: codeship-heroku-deployment
